@@ -1,0 +1,17 @@
+run:
+  go: "1.22.1"
+
+linters:
+  disable-all: true
+  enable:
+    - forbidigo
+    - ginkgolinter
+    - gocritic
+    - govet
+    - ineffassign
+    - logcheck
+    - revive
+    - staticcheck
+    - stylecheck
+    - unused
+    
